@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 10;
+    padding: 0;
+}
+
+body{
+   background-color:gray; 
+   color:rgb(79, 53, 22);   
+}
+
+.miEncabezado{
+    
+    background-color: rgb(88, 35, 35);
+    display:flex;
+    justify-content:baseline;
+    gap: 80px;
+    border:10px solid transparent;
+    align-items:center;
+    padding: 0% 0% 0% 5%;
+    font-family:"montserrat", sans-serif;
+    font-size:18 px;
+    font-weight:400;
+    color:#9f7474;
+}
+
+.miNav{
+    display:flex;
+    gap:20px;
+}
+
+.MenuDetalle{
+    text-decoration:none;
+    background-color: rgb(88, 35, 35);
+}
+
+.detalleCuerpo{
+    height:500px;
+    background-color:rgba(3, 0, 30, 0.643);
+    color:rgb(142, 142, 168);
+    border: 2px solid rgba(244, 237, 237, 0.326);
+    text-align: center;
+}
+
+.titulo-blog{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    color:#953c3c;
+    font-weight: bold;
+    padding: 00% 0% 0% 35%;
+}  
+
+.principal{
+
+    display:flex;
+    gap:80px;
+    margin:1%;
+    align-items:center;
+    justify-content:baseline;
+}
+
+footer{
+    background-color:rgb(63, 54, 42);
+    color:beige;
+}
+
+a{
+    color:aliceblue;
+    background-color:rgba(69, 41, 13, 0.941) ;
+    border:1px solid rgb(32, 46, 34);
+    padding: 10px;
+}
+
+.textoDestacado {
+    font-family: "Montserrat Alternates", sans-serif;
+    width: 300px;
+    border: 1px;
+    align-items: left;
+    box-sizing: border-box;
+    color:#f4d5d5bc;
+    font-weight: bold;
+
+    font-style:italic;
+    text-align: left;
+    margin-right : 200px;
+
+}
+
+.texto_izquierdo{
+
+    font-family: "Krona One", sans-serif;
+    margin-left:100px;
+    width: 300px;
+    border: 15px  solid transparent;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.imagen_mia{
+
+    width: 280px;
+    border: 70px solid transparent;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pieFoto{
+    width: 250px;
+}
+
+.misBotones{
+
+    display:flex;
+    margin:1%;
+    align-items:center;
+    justify-content: space-between;
+    border-right: 1200px solid transparent;
+    border-left: 120px solid transparent;
+
+}
+#btnDataPer{
+    width:100px;
+    height:60px
+}
+#btnEstudios{
+    width:100px;
+    height:60px
+}
+#btnExperiencia{
+    width:100px;
+    height:60px
+}
+
+.piePagina{
+   padding: 5% 15%;
+}
